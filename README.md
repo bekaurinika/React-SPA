@@ -77,12 +77,15 @@ The application is compatible with all modern browsers:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+🖼️ Screenshots
 
-- GitHub: [@bekaurinika](https://github.com/bekaurinika)
+- Welcome
+![image](https://github.com/user-attachments/assets/97eb2d5c-62b4-4e7a-b56b-c0d73ebad76c)
 
-## 🙏 Acknowledgments
+- About
+![image](https://github.com/user-attachments/assets/9a5b5695-b5bf-4ff9-8c4e-79dbb8889c55)
 
-- React team for the amazing framework
-- Vite team for the build tool
-- All the open-source contributors of the libraries used in this project
+- Contact
+![image](https://github.com/user-attachments/assets/d3b63f08-a96d-493e-9e9c-67ad22055fbc)
+
+
