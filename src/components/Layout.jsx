@@ -22,7 +22,7 @@ export default function Layout({ children }) {
   ];
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${
+    <div className={`flex flex-col min-h-screen transition-colors duration-300 ${
       theme === 'dark' ? 'dark:bg-gray-900 dark:text-white' : 'bg-white text-gray-900'
     }`}>
       <header className="bg-gray-800 text-white">
@@ -130,7 +130,7 @@ export default function Layout({ children }) {
         </nav>
       </header>
 
-      <main className="container mx-auto p-4" role="main">
+      <main className="flex-grow container mx-auto p-4" role="main">
         <motion.div
           key={location.pathname}
           initial={{ opacity: 0, y: 20 }}
@@ -142,8 +142,8 @@ export default function Layout({ children }) {
         </motion.div>
       </main>
 
-      <footer className="mt-auto py-4 bg-gray-800 text-white" role="contentinfo">
-        <div className="container mx-auto px-4 text-center">
+      <footer className="bg-gray-800 text-white" role="contentinfo">
+        <div className="container mx-auto px-4 text-center py-4">
           <p>&copy; {new Date().getFullYear()} React SPA</p>
         </div>
       </footer>
