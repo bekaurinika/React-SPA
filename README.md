@@ -45,16 +45,20 @@ npm run dev
 - `npm run lint` - Runs ESLint to check code quality
 - `npm run deploy` - Deploys the application to GitHub Pages
 
-## 📁 Project Structure
+📁 Project Structure
 React-SPA/
 ├── src/
-│ ├── components/ # Reusable components
-│ ├── pages/ # Page components
-│ ├── utils/ # Utility functions and configurations
-│ ├── App.jsx # Main application component
-│ └── main.jsx # Application entry point
-├── public/ # Static assets
-└── ...configuration files
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Pages (e.g., Home, About, Contact)
+│   ├── hooks/           # Custom hooks (e.g., useFetch, useTheme)
+│   ├── styles/          # Tailwind CSS and global styles
+│   ├── utils/           # Utility functions
+│   ├── App.jsx          # Main application component
+│   └── main.jsx         # Application entry point
+├── public/              # Static assets
+├── dist/                # Production build
+└── package.json         # Project configuration
+
 
 
 ## 🌐 Browser Support
@@ -65,14 +69,6 @@ The application is compatible with all modern browsers:
 - Safari (latest)
 - Edge (latest)
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -80,12 +76,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 🖼️ Screenshots
 
 - Welcome
+
 ![image](https://github.com/user-attachments/assets/97eb2d5c-62b4-4e7a-b56b-c0d73ebad76c)
 
 - About
+
 ![image](https://github.com/user-attachments/assets/9a5b5695-b5bf-4ff9-8c4e-79dbb8889c55)
 
 - Contact
+
 ![image](https://github.com/user-attachments/assets/d3b63f08-a96d-493e-9e9c-67ad22055fbc)
 
 
