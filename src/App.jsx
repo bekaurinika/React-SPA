@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Layout from './components/Layout';
 import Home from './pages/Home';
@@ -9,7 +9,7 @@ import './utils/i18n';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Layout>
         <AnimatePresence mode="wait">
           <Routes>
@@ -19,7 +19,7 @@ function App() {
           </Routes>
         </AnimatePresence>
       </Layout>
-    </Router>
+    </HashRouter>
   );
 }
 
