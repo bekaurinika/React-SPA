@@ -47,20 +47,21 @@ npm run dev
 
 📁 Project Structure
 
-React-SPA/
-├── src/                    # Main source directory
-│   ├── components/         # Reusable UI components
-│   ├── pages/              # Page components (e.g., Home, About, Contact)
-│   ├── hooks/              # Custom hooks (e.g., useFetch, useTheme)
-│   ├── styles/             # Tailwind CSS and global styles
-│   ├── utils/              # Utility functions and configurations
-│   ├── App.jsx             # Main application component
-│   └── main.jsx            # Application entry point
-├── public/                 # Static assets (e.g., icons, logos)
-├── dist/                   # Production build directory
-├── package.json            # Project configuration and dependencies
-├── vite.config.js          # Vite configuration for the project
-└── README.md               # Documentation for the project
+- **React-SPA/**
+  - **src/** - Main source directory
+    - **components/** - Reusable UI components
+    - **pages/** - Page components (e.g., Home, About, Contact)
+    - **hooks/** - Custom hooks (e.g., useFetch, useTheme)
+    - **styles/** - Tailwind CSS and global styles
+    - **utils/** - Utility functions and configurations
+    - **App.jsx** - Main application component
+    - **main.jsx** - Application entry point
+  - **public/** - Static assets (e.g., icons, logos)
+  - **dist/** - Production build directory
+  - **package.json** - Project configuration and dependencies
+  - **vite.config.js** - Vite configuration for the project
+  - **README.md** - Documentation for the project
+
 
 
 
